@@ -61,38 +61,40 @@ This creates a secure and cost-effective API gateway, demonstrating a resourcefu
 
 
 
-# 💻 Tech Stack
-Desktop Framework: Electron.js
-
-Front-End UI: React.js
-
-Back-End Services: Firebase (Authentication, Firestore)
-
-API Layer: Cloudflare Workers (Serverless Functions)
-
-Styling: CSS3 with a Glassmorphism design
-
-Runtime: Node.js
+# 💻 &nbsp;Tools Used 
+<p align="left">
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="vscode" width="45" height="45"/>
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/electron/electron-original.svg" width="45" height="45" />
+ <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="45" height="45" />
+ <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg' alt="firebase" width="45" height="45" />
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cloudflareworkers/cloudflareworkers-original.svg" width="45" height="45" />
+ <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="45" height="45" />
+ <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="45" height="45" />
+</p>
 
 # 🚀 Getting Started
-To run a local instance of this application for development:
+* To run a local instance of this application for development:
 
-Prerequisites
-Node.js and npm
+* Prerequisites
+`Node.js and npm`
 
-A Firebase project with Authentication and Firestore enabled.
+* A Firebase project with Authentication and Firestore enabled.
 
-A Cloudflare account for the serverless worker.
+* A Cloudflare account for the serverless worker.
 
 # Installation & Setup
 Clone the repository:
 
-git clone [https://github.com/aashishud/laundromod.git](https://github.com/aashishud/laundromod.git)
+```bash
+git clone https://github.com/aashishud/laundromod.git
 cd laundromod
+```
 
 # Install dependencies:
 
+```bash
 npm install
+```
 
 Set up environment variables:
 Create a file named .env in the root directory and add your Firebase project credentials. You can find these in your Firebase project settings. The API_ENDPOINT should be the URL of your deployed Cloudflare Worker.
@@ -100,21 +102,29 @@ Create a file named .env in the root directory and add your Firebase project cre
 # .env.example
 
 Firebase Client SDK Credentials
-* API_KEY=YourFirebaseApiKey
-* AUTH_DOMAIN=YourFirebaseAuthDomain
-* PROJECT_ID=YourFirebaseProjectId
+```bash
+ API_KEY=YourFirebaseApiKey
+ AUTH_DOMAIN=YourFirebaseAuthDomain
+ PROJECT_ID=YourFirebaseProjectId
+```
 # ... and other Firebase keys
 
 # URL for your Cloudflare Worker
-* API_ENDPOINT=YourCloudflareWorkerUrl
+```bash
+const workerUrl=YourCloudflareWorkerUrl
+```
 
-Start the application in development mode:
+# Start the application in development mode:
 
-* npm run dev
+```bash
+npm run dev
+```
 
 Build the application:
 
-* npm run build
+```bash 
+npm run build
+```
 
-📄 License
+# 📄 License
 This project is licensed under the MIT License. See the LICENSE file for details.
