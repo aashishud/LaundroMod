@@ -1,0 +1,40 @@
+[
+  {
+    "id": "wemod",
+    "name": "WeMod",
+    "icon": "wemod.ico",
+    "downloadUrl": "https://www.wemod.com/download",
+    "asarUrl": "https://placeholder.url/for/your/patched.asar",
+    "disabled": false
+  },
+  {
+    "id": "steam",
+    "name": "Steam",
+    "icon": "steam.ico",
+    "downloadUrl": "placeholder-for-steam-mod.zip",
+    "installPath": "",
+    "disabled": false
+  },
+  {
+    "id": "gta5",
+    "name": "Grand Theft Auto V",
+    "icon": "gta 5.ico",
+    "downloadUrl": "placeholder-for-gta5-mod.zip",
+    "installPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V",
+    "disabled": false
+  },
+  {
+    "id": "forza5",
+    "name": "Forza Horizon 5",
+    "icon": "forza horizon 5.ico",
+    "downloadUrl": "placeholder-for-forza-mod.zip",
+    "installPath": "C:\\Program Files\\WindowsApps\\Microsoft.624F8B84B80_3.405.2.0_x64__8wekyb3d8bbwe",
+    "disabled": false
+  },
+  {
+    "id": "valorant",
+    "name": "Valorant",
+    "icon": "Valo.ico",
+    "disabled": true
+  }
+]
